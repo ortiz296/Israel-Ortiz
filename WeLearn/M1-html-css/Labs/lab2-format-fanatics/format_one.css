@@ -16,6 +16,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: /*insert format here*/;
-  grid-template-rows: /*insert formal here*/;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: 100px 100px;
+  grid-gap: 3px;
 }

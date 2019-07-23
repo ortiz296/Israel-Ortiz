@@ -47,29 +47,23 @@ html {
 /* Parent or Container elements */
 /* Style them all at once with this selector */
 .row {
-  display: flex;
+
 }
 
 /* OR Style each row individually with these selectors */
 #row1 {
-justify-content: space-between;
+
 }
 
 #row2 {
-justify-content: space-around;
+
 }
 
 #row3 {
-align-items: center;
-justiy-content : space-evenly;
+
 }
 
 /* Child elements or items */
 .item {
 
-}
-
-.together {
-display: flex;
-justify-content:
 }
