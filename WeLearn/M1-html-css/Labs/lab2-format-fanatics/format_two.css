@@ -15,21 +15,33 @@
  */
 
 .container {
-  display:grid;
-  /* Style the template for the grid */
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 
 /* Making border black */
 #b {
   background-color: black;
 }
+.side1{
+  grid-row: span 7;
+
+}
+.top{
+  grid-column: span 9;
+
+}
+.side2{
+  grid-row: span 7;
+
+}
 
 #title {
-  grid-column: span 12;
+  grid-column: span 11;
 }
 
-.photo {
-  grid-column: /*insert format*/;
+.photo1 {
+  grid-row: span 3
+  grid-column: span 3
 }
-
-/* Style remaining grid elements */
