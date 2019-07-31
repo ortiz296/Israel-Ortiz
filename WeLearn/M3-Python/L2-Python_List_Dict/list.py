@@ -29,10 +29,20 @@
 # else:
 #     print("Hero not found.")
 
-names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
+# names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
+#
+# names[::-1]
+#
+# names[4:2:-1]
+#
+# print(names[::2])
 
-names[::-1]
+states = {"NY": "New York", "CA": "California", "TX": "Texas"}
 
-names[4:2:-1]
-
-print(names[::2])
+states = {
+    "NY": "New York",
+    "CA": "California",
+    "TX": "Texas"
+}
+for abbreviation in states:
+    print(abbreviation + " is short for " + states[abbreviation])
